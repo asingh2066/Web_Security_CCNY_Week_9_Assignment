@@ -17,7 +17,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-## Vulnerability #1: SQL Injection
+### Vulnerability #1: SQL Injection
 
 <img src='Blue_SQLi.gif' title='SQL Injection' width='' alt='' />
 
@@ -25,7 +25,7 @@ Select the Salesperson section, there is "?id=X" at the end of the url, by enter
 
 
 
-## Vulnerability #2: Session Hijacking/Fixation
+### Vulnerability #2: Session Hijacking/Fixation
 
 <img src='Blue_Hijack.gif' title='Session Hijacking/Fixation' width='' alt='' />
 
@@ -33,14 +33,14 @@ Login to the blue Globitek website, using this tool ```public/hacktools/change_s
 
 ## Green
 
-## Vulnerability #1: Username Enumeration
+### Vulnerability #1: Username Enumeration
 
 <img src='Green_Enum.gif' title='Session Hijacking/Fixation' width='' alt='' />
 
 When I trying to login using a wrong username, the alert message is in plain text. But when I triyng to login using a correct username, the alert message appeared is bold. By inspecting the page, we could found that class is "failture" for correct username. The other class is "failed" for uncorrect username.
 
 
-## Vulnerability #2: Cross-Site Scripting
+### Vulnerability #2: Cross-Site Scripting
 
 <img src='Green_XSS.gif' title='Cross-Site Scripting' width='' alt='' />
 
